@@ -9,4 +9,6 @@ end
 end
 
 def reverse_each_word(string)
-  
+ new = string.split.collect { |x| x.reverse }
+ new.join(" ")
+end
